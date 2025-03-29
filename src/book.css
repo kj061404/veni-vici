@@ -1,0 +1,47 @@
+img {
+    height: 220px;
+    width: 150px;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.book-container h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.author-btn {
+    background-color: #ff5555;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.author-btn:hover {
+    background-color: #ff3333;
+    transform: translateY(-2px);
+}
+
+.author-btn:active {
+    transform: translateY(0);
+}
