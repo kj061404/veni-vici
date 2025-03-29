@@ -132,4 +132,17 @@ function App() {
                     className="remove-ban"
                   >
                     ✕
-                
+                  </button>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="no-bans">No authors banned yet</p>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
